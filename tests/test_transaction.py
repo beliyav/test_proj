@@ -5,6 +5,7 @@ import pytest
 
 from conftest import decimal_to_str
 
+
 @pytest.mark.parametrize("amount", [0.01, 0.1, 1, 10])
 async def test_transaction_success(cli, account_factory, amount):
     initial_source_balance = 10
