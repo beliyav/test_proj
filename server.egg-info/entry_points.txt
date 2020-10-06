@@ -1,0 +1,3 @@
+[console_scripts]
+run_api = server.__main__:main
+
